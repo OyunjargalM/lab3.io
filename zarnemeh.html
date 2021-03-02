@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Автомашины зар</title>
+</head>
+<style>
+h1 {
+  color: white;
+  background-color: red;
+  font-size: 40px;
+  } 
+</style>
+<h1 align="center" >АВТОМАШИНЫ ЗАРЫН САЙТ</h1>
+<link rel="stylesheet" type="text/css" href="zagvar1.css">
+<body>
+  <nav>
+    <ul> 
+      <li><a href="index.html">Нүүр</a></li>
+       <li><a href="turshilt1.html">Зар харах</a></li> 
+       <li><a href="zarnemeh.html">Зар нэмэх</a></li>
+    </ul>
+  </nav> 
+</body>
+<style type="text/css">
+  h2 {
+    font-family: arial;
+    font-size: 20px;
+  }
+</style>
+&nbsp;&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<h2 align="center" style="font-size: 21px">Та зар нэмэхийг хүсвэл доорх формыг бөглөнө үү.Кирилээр бөглөнө үү.</h2>
+<hr>
+<form method="post" action="">
+  <style type="text/css">
+    label {
+      font-family: arial;
+      font-size: 18px;
+      text-align: center;
+    }
+  </style>
+    <input type="hidden" name="recipient">
+  <p>
+    <label align="center" label style="font-size: 18px">Борлуулагчийн нэр:
+    <input type="text" name="name" size="25" max="50"></label>
+  </p>
+  <p>
+    <label align="center" label style="font-size: 18px">Машины нэр:
+    <input type="text" name="name" size="25" max="50"></label>
+  </p>
+  <p>
+    <label>Үйлдвэрлэгдсэн он:
+        <input type="number" input style="font-size: 18px" 
+        min = "2000"
+        max = "2021"
+        step = "1"/>
+    </label>
+  </p>
+  <p>
+    <label>Орж ирсэн он:
+        <input type="number" input style="font-size: 18px" 
+        min = "2000"
+        max = "2021"
+        step = "1"/>
+    </label>
+  </p>
+    <p>
+    <label>Үнэ:
+      <input type="text" name="price" input style="font-size: 18px">
+    </label>
+  </p>
+  <p>
+    <label for="country">Жолооны байрлал</label>
+    <select id="country" name="country">
+      <option value="australia"><option style="font-size: 18px" > Зөв талдаа</option>
+      <option value="canada"><option style="font-size: 18"> Буруу талдаа</option>
+    </select>
+  </p>
+  <p>
+    <label>Email:
+      <input type="Email" placeholder="name@domain.com" style="font-size: 18px" 
+        required />
+    </label>
+  </p>
+  <p>
+    <label>Огноо:
+      <input type="date" style="font-size: 18px" />
+    </label>
+  </p>
+  <p>
+    <label>Утасны дугаар:
+      <input type="tel" placeholder="(###) ####-####"
+        pattern="\(\d{3}\) +]d{4}-\d{4}" required style="font-size: 18px">
+    </label>
+  </p>
+  <p>
+    <label>Машины зургийг оруулна уу!
+      <form action="/action_page.php">
+      <input type="file" id="myFile" name="filename" style="font-size: 18px">
+      </form>
+    </label>
+  </p>
+  <p>
+    <label for="subject">Машины талаарх бусад мэдээлэл</label>
+    <textarea id="subject" name="subject" placeholder="Мэдээллээ бичнэ үү." style="height:100px" style="width: 400px"></textarea>
+  </p>
+  <p>
+    <input type="submit" name="submit">
+    <input type="reset" name="reset">
+  </p>
+  <style type="text/css">
+    /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+  </style>
+</html>
